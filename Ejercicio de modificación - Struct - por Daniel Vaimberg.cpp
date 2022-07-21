@@ -59,7 +59,7 @@ int main(){
         printf("[%i] Digita tu Municipio: ", i +1);
         gets(empleados[i].dirEmpleado.municipio);
         
-        printf("[%i] Digita tu estado civil: ", i +1);
+        printf("[%i] Digita tu Estado Civil: ", i +1);
         gets(empleados[i].FamEmpleado.estadoC);
 
         printf("[%i] Digita el Tipo de Vivienda que tienes: ", i +1);
@@ -68,13 +68,13 @@ int main(){
         printf("[%i] Digita la cantidad de Hijos que tienes: ", i +1);
         gets(empleados[i].FamEmpleado.Hijos);
 
-	printf("[%i] Posee servicio de Agua? : ", i +1);
+	printf("[%i] ¿Posee servicio de Agua? : ", i +1);
         gets(empleados[i].ServEmpleado.Agua);
 
-        printf("[%i] Posee servicio eléctrico? : ", i +1);
+        printf("[%i] ¿Posee servicio eléctrico? : ", i +1);
         gets(empleados[i].ServEmpleado.luz);
 		
-        printf("[%i] Digita tu número de telefono: ", i +1);
+        printf("[%i] Digita tu número de teléfono: ", i +1);
         gets(empleados[i].ServEmpleado.Telefono);
         
         printf("[%i] Digita tu salario base: ", i +1);
