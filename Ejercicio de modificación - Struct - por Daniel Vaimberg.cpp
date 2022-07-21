@@ -68,7 +68,7 @@ int main(){
         printf("[%i] Digita la cantidad de Hijos que tienes: ", i +1);
         gets(empleados[i].FamEmpleado.Hijos);
 
-		printf("[%i] Posee servicio de Agua? : ", i +1);
+	printf("[%i] Posee servicio de Agua? : ", i +1);
         gets(empleados[i].ServEmpleado.Agua);
 
         printf("[%i] Posee servicio eléctrico? : ", i +1);
@@ -81,8 +81,6 @@ int main(){
         scanf("%lf", &empleados[i].salario);
 
         printf("\n");
-
-
         printf("\n");
 
     }
