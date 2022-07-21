@@ -45,9 +45,8 @@ int main(){
 
     for(i = 0; i < x; i++){
 
-        fflush(stdin); 
-		fflush(stdin);
-		
+    	fflush(stdin); 
+	    
         printf("\n[%i] Digita tu nombre: ", i +1);
         gets(empleados[i].nombre);
 
