@@ -95,7 +95,7 @@ int main(){
             printf("\nNúmero de Hijos: %s", empleados[i].FamEmpleado.Hijos);
             printf("\nTipo de Vivienda: %s", empleados[i].FamEmpleado.Vivienda);
             printf("\nServicio de Agua: %s", empleados[i].ServEmpleado.Agua);
-            printf("\nServicio de Eléctricidad: %s", empleados[i].ServEmpleado.luz);
+            printf("\nServicio de Electricidad: %s", empleados[i].ServEmpleado.luz);
             printf("\nNúmero de teléfono: %s", empleados[i].ServEmpleado.Telefono);
             printf("\nSalario: %.2lf", empleados[i].salario);
          }
