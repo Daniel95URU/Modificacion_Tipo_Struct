@@ -39,9 +39,8 @@ struct empleado{
 int main(){
 
 	setlocale(LC_ALL, "spanish");
-    int i;
-	int x;
-    printf("¿Cuántos empleados son? : ");
+    int i, x;
+    printf("Â¿CuÃ¡ntos empleados son? : ");
     scanf("%d", &x);
 
     for(i = 0; i < x; i++){
@@ -52,7 +51,7 @@ int main(){
         printf("\n[%i] Digita tu nombre: ", i +1);
         gets(empleados[i].nombre);
 
-        printf("[%i] Digita tu Dirección: ", i +1);
+        printf("[%i] Digita tu DirecciÃ³n: ", i +1);
         gets(empleados[i].dirEmpleado.direccion);
 
         printf("[%i] Digita tu Ciudad: ", i +1);
@@ -73,10 +72,10 @@ int main(){
 		printf("[%i] Posee servicio de Agua? : ", i +1);
         gets(empleados[i].ServEmpleado.Agua);
 
-        printf("[%i] Posee servicio eléctrico? : ", i +1);
+        printf("[%i] Posee servicio elÃ©ctrico? : ", i +1);
         gets(empleados[i].ServEmpleado.luz);
 		
-        printf("[%i] Digita tu número de telefono: ", i +1);
+        printf("[%i] Digita tu nÃºmero de telefono: ", i +1);
         gets(empleados[i].ServEmpleado.Telefono);
         
         printf("[%i] Digita tu salario base: ", i +1);
@@ -90,17 +89,17 @@ int main(){
     }
        for(i = 0; i < x; i++){
 
-            printf("\n\nDatos del empleado número: [%d] ", i + 1);
+            printf("\n\nDatos del empleado nÃºmero: [%d] ", i + 1);
             printf("\nNombre : %s", empleados[i].nombre);
-            printf("\nDirección: %s", empleados[i].dirEmpleado.direccion);
+            printf("\nDirecciÃ³n: %s", empleados[i].dirEmpleado.direccion);
             printf("\nCiudad : %s", empleados[i].dirEmpleado.ciudad);
             printf("\nMunicipio: %s", empleados[i].dirEmpleado.municipio);
             printf("\nEstado Civil: %s", empleados[i].FamEmpleado.estadoC);
-            printf("\nNúmero de Hijos: %s", empleados[i].FamEmpleado.Hijos);
+            printf("\nNÃºmero de Hijos: %s", empleados[i].FamEmpleado.Hijos);
             printf("\nTipo de Vivienda: %s", empleados[i].FamEmpleado.Vivienda);
             printf("\nServicio de Agua: %s", empleados[i].ServEmpleado.Agua);
-            printf("\nServicio de Eléctricidad: %s", empleados[i].ServEmpleado.luz);
-            printf("\nNúmero de teléfono: %s", empleados[i].ServEmpleado.Telefono);
+            printf("\nServicio de ElÃ©ctricidad: %s", empleados[i].ServEmpleado.luz);
+            printf("\nNÃºmero de telÃ©fono: %s", empleados[i].ServEmpleado.Telefono);
             printf("\nSalario: %.2lf", empleados[i].salario);
          }
     printf("\n");
